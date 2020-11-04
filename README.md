@@ -1,2 +1,2 @@
-# LogiProcessers
-Programmable Processers For TUNG
+# LogiProcessors
+Programmable Processors For TUNG
