@@ -5,7 +5,7 @@ using System.Text;
 using PiTung;
 using PiTung.Components;
 
-namespace LogiProcessers
+namespace LogiProcessors
 {
 	class Template : UpdateHandler
 	{

@@ -10,9 +10,9 @@ using PiTung.Console;
 using System.Runtime.InteropServices;
 using UnityEngineInternal;
 
-namespace LogiProcessers
+namespace LogiProcessors
 {
-	class Processer : UpdateHandler
+	class Processor : UpdateHandler
 	{
 		//[SaveThis]
 		//public string CodeLocation { get; set; } = "";
@@ -52,7 +52,7 @@ namespace LogiProcessers
 			//IGConsole.Log(Registers[0]);
 			if (this.Inputs[0].On)
 			{
-				//code = LogiProcessers.CodeGlobal;
+				//code = LogiProcessors.CodeGlobal;
 				if (File.Exists(Directory.GetCurrentDirectory() + codeloc))
 				{
 					code = File.ReadAllLines(Directory.GetCurrentDirectory() + codeloc);
@@ -71,7 +71,7 @@ namespace LogiProcessers
 			}
 			if (this.Inputs[1].On)
 			{
-				codeloc = LogiProcessers.CodeLocationGlobal;
+				codeloc = LogiProcessors.CodeLocationGlobal;
 				if (File.Exists(Directory.GetCurrentDirectory() + codeloc))
 				{
 					code = File.ReadAllLines(Directory.GetCurrentDirectory() + codeloc);

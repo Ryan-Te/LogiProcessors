@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace LogiProcessers
+namespace LogiProcessors
 {
 
     public class setCodeLoc : Command
