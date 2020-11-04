@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace LogiProcessers
+namespace LogiProcessors
 {
 
     public class setCodeLoc : Command
@@ -19,7 +19,7 @@ namespace LogiProcessers
             if (args.Count() == 0)
                 return false;
 
-            LogiProcessers.CodeLocationGlobal = "/" + args.ElementAt(0);
+            LogiProcessors.CodeLocationGlobal = "/" + args.ElementAt(0);
 
             return true;
         }
